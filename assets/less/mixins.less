@@ -1,0 +1,16 @@
+
+
+
+// Base functions
+.padding( @value: 80px ) {
+	padding: @value 0;
+	@media (max-width: 767px ) {
+		padding: calc( @value / 2 ) 0;
+	}
+}
+
+.font(@w: 400, @s: normal) {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: @w;
+	font-style: @s;
+}
