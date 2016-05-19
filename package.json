@@ -1,15 +1,22 @@
 {
-    "name": "who-cares-about-IE9",
-    "version": "1.0.0",
-    "devDependencies": {
-        "grunt": "1.0.0",
-        "grunt-contrib-jshint": "latest",
-        "jshint-stylish": "latest",
-        "grunt-contrib-uglify": "latest",
-        "grunt-contrib-less": "latest",
-        "grunt-contrib-watch": "latest",
-        "grunt-contrib-cssmin": "latest",
-        "grunt-contrib-imagemin": "^0.7.0",
-        "grunt-browser-sync": "latest"
-    }
+  "name": "fuie9-wp-foundation6",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.0",
+    "grunt-contrib-jshint": "latest",
+    "jshint-stylish": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-imagemin": "latest",
+    "grunt-browser-sync": "latest"
+  },
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcus Oskarsson",
+  "license": "ISC",
+  "description": ""
 }
