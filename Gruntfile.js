@@ -69,7 +69,8 @@ module.exports = function(grunt) {
                     },
                     options: {
                         watchTask: true,
-                        proxy: "www.who-cares.dev"
+                        proxy: "www.who-cares.dev",
+                        notify: false
                     }
                 }
             }
